@@ -24,7 +24,7 @@ import Image from 'next/image';
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
 import useStyles from '../utils/styles';
-import CheckoutWizard from '../components/checkoutWizard';
+import CheckoutWizard from '../components/CheckoutWizard';
 import { useSnackbar } from 'notistack';
 import { getError } from '../utils/error';
 import axios from 'axios';
